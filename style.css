@@ -21,7 +21,7 @@ body{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/network.png);
-    object-fit: contain;
+    object-fit: cover;
     background-color: var(--primary-color);
     color: antiquewhite;
 }
@@ -54,6 +54,7 @@ body{
     padding: 10px 15px;
     font-size: 16px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .nav .menu ul li a:hover{
     background-color: #FFAE00;
@@ -173,3 +174,267 @@ body{
     width: 70px;
     color: #b18585;
 }
+
+
+/* 
+    Helping Blockchain
+*/
+
+#helping-blockchain{
+    background-color: #F2F2F2;
+}
+#helping-blockchain .container{
+    padding: 100px 0;
+    color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+}
+#helping-blockchain .container .left{
+    width: 50%;
+}
+#helping-blockchain .container .left h2{
+    font-size: 48px;
+    margin: 20px 0;
+}
+#helping-blockchain .container .right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#helping-blockchain .card{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+    
+}
+.card .icon i{
+    font-size: 40px;
+    color: #03001A;
+    margin-right: 10px;
+}
+
+#blockchain-foundation{
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+
+#blockchain-foundation h2{
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+#blockchain-foundation .para{
+    width: 600px;
+    margin: auto;
+    align-content: center;
+}
+
+.allCard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.allCard .singleCard .image-box{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 20px 0;
+    background-image: url(./images/projects1.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.allCard .singleCard .image-box .box{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 100px 50px;
+}
+.allCard .singleCard .image-box .box button{
+    color: green;
+    font-size: 20px;
+    margin-top: 50px; 
+    border: none;
+    background: none;
+}
+
+.allCard .singleCard .image-box .box:hover{
+    background-color: #d3ad59;
+    color: white;
+}
+/* 
+    Footer
+*/
+
+#footer{
+    background-color: #03001A;
+    color: antiquewhite;
+    padding: 30px 0;
+    text-align: center;   
+}
+#footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .container .logo {
+    width: 400px;
+    text-align: left;
+}
+#footer .container .logo img{   
+    width: 200px;
+    margin: 20px 0;
+}
+
+.newsletter{
+    text-align: right;
+}
+
+.newsletter .input{
+    display: flex;
+    margin: 20px 0;
+}
+
+.input input{
+    padding: 10px 20px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 200px;   
+}
+
+.input button{
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #FFAE00;
+    color: rgb(43, 43, 43);
+}
+
+.social{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.social li{
+    display: inline;
+    margin: 0 10px;
+    color: white;
+}
+
+.social i{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: none;
+    border: 1px solid white;
+    align-items: center;
+}
+
+.copyright{
+    margin-top: 20px;;
+}
+
+.copyright a{
+    color: #FFAE00;
+    text-decoration: none;
+    font-weight: lighter;
+    margin: 0 5px;
+}
+
+.copyright a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+#contact{
+    background-color: #F2F2F2;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .right{
+    width: 40%;
+}
+#contact iframe{
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+#contact .left{
+    width: 40%;
+}
+
+#contact-us{
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.right .contact-us button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFAE00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFE00;
+}
+
+
+
+
